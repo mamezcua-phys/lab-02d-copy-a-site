@@ -1,0 +1,45 @@
+body {
+    background: white;
+}
+
+section, main, div, header {
+    border: solid 1px palevioletred;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 225px 1fr;
+    width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.top-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.top-mid {
+    display: grid;
+    grid-template-columns: 115px 115px 115px 2fr;
+}
+
+.top-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-body {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.lower-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.body-header {
+    font-size: 3rem;
+    color: plum;
+}
